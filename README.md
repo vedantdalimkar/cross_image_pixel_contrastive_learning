@@ -1,4 +1,4 @@
-Paper implementation of [Cross Image Pixel Contrast for Semantic Segmentation](https://arxiv.org/pdf/2101.11939v4)
+Paper implementation of [Cross Image Pixel Contrast for Semantic Segmentation (ICCV 21')](https://arxiv.org/pdf/2101.11939v4)
 
 Code can be implemented in your semantic segmentation training pipeline using the following steps
 
