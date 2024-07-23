@@ -1,0 +1,2 @@
+# cross_image_pixel_contrastive_learning
+Paper implementation 
