@@ -2,8 +2,17 @@ import torch
 import torch.nn as nn
 
 class ContrastiveLearner:
-    def __init__(self,region_memory_bank_size,pixel_memory_bank_size,num_classes,device,embedding_dim,pixel_sampling_per_batch,num_anchors,k_positive,
-                 k_negative, temperature):
+    def __init__(self,
+                 region_memory_bank_size,
+                 pixel_memory_bank_size,
+                 num_classes,
+                 device,
+                 embedding_dim = 256,
+                 pixel_sampling_per_batch = 10,
+                 num_anchors = 50,
+                 k_positive = 1024,
+                 k_negative = 2048,
+                 temperature = 0.1):
         self.device = device
         self.temperature = temperature
         self.num_classes = num_classes
